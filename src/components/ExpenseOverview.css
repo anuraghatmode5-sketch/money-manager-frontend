@@ -1,0 +1,20 @@
+.expense-overview-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.expense-description {
+    font-size: 12px;
+    color: #9ca3af;
+    margin: 2px 0 0;
+}
+
+.expense-chart-container {
+    margin-top: 40px;
+    width: 100%;
+}

@@ -1,0 +1,225 @@
+.menubar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    background-color: white; 
+    border: 1px solid #e5e7eb; 
+    backdrop-filter: blur(2px); 
+    padding: 16px; 
+    position: sticky; 
+    top: 0; 
+    z-index: 30; 
+} 
+ 
+.menubar-left { 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+} 
+ 
+.menu-toggle-button { 
+    display: block; 
+    background: none; 
+    border: none; 
+    color: #374151; 
+    padding: 4px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease; 
+} 
+ 
+.menu-toggle-button:hover { 
+    background-color: #f3f4f6; 
+} 
+ 
+.menu-icon { 
+    width: 24px; 
+    height: 24px; 
+} 
+ 
+.menubar-brand { 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+} 
+ 
+.menubar-logo { 
+    width: 40px; 
+    height: 40px; 
+} 
+ 
+.menubar-title { 
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #111827; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+} 
+ 
+.menubar-avatar-container { 
+    position: relative; 
+} 
+ 
+.avatar-button { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 40px; 
+    height: 40px; 
+    background-color: #f3f4f6; 
+    border: none; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    transition: all 0.2s ease; 
+} 
+ 
+.avatar-button:hover { 
+    background-color: #e5e7eb; 
+} 
+ 
+.avatar-button:focus { 
+    outline: none; 
+    box-shadow: 
+        0 0 0 2px white, 
+        0 0 0 4px #7c3aed; 
+} 
+ 
+.user-icon { 
+    color: #7c3aed; 
+} 
+ 
+.dropdown-menu { 
+    position: absolute; 
+    right: 0; 
+    margin-top: 8px; 
+    width: 192px; 
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+                0 4px 6px -4px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #e5e7eb; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    z-index: 50; 
+} 
+ 
+.dropdown-user-info { 
+    padding: 12px 16px; 
+    border-bottom: 1px solid #e5e7eb; 
+} 
+ 
+.dropdown-options { 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+} 
+ 
+.dropdown-user-info { 
+    padding: 12px 16px; 
+    border-bottom: 1px solid #e5e7eb; 
+} 
+ 
+.dropdown-user-details { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+} 
+ 
+.dropdown-user-avatar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 32px; 
+    height: 32px; 
+    background-color: #f3f4f6; 
+    border-radius: 50%; 
+} 
+ 
+.dropdown-user-icon { 
+    width: 16px; 
+    height: 16px; 
+    color: #7c3aed; 
+} 
+ 
+.dropdown-user-text { 
+    flex: 1; 
+    min-width: 0; 
+} 
+ 
+.user-full-name { 
+    font-size: 14px; 
+    font-weight: 500; 
+    color: #111827; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    margin: 0; 
+} 
+ 
+.user-email { 
+    font-size: 12px; 
+    color: #6b7280; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    margin: 0; 
+} 
+ 
+.dropdown-options { 
+    padding: 4px 0; 
+} 
+ 
+.logout-button { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    width: 100%; 
+    padding: 8px 16px; 
+    background: none; 
+    border: none; 
+    font-size: 14px; 
+    color: #4b5563; 
+    text-align: left; 
+    cursor: pointer; 
+    transition: background-color 0.15s ease; 
+} 
+ 
+.logout-button:hover { 
+    background-color: #f3f4f6; 
+} 
+ 
+.logout-icon { 
+    width: 16px; 
+    height: 16px; 
+    color: #ef4444; 
+} 
+ 
+.mobile-side-menu { 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 73px; 
+    background-color: white; 
+    border-bottom: 1px solid #e5e7eb; 
+    z-index: 20; 
+} 
+ 
+/* Hide on large screens */ 
+ 
+@media (min-width: 1024px) { 
+ 
+    .mobile-side-menu { 
+        display: none; 
+    } 
+ 
+} 
+ 
+@media (min-width: 640px) { 
+ 
+    .menubar { 
+        padding-left: 28px; 
+        padding-right: 28px; 
+    } 
+ 
+}

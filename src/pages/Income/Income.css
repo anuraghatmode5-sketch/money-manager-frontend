@@ -1,0 +1,34 @@
+.income-container {
+    margin: 24px auto;
+}
+
+.income-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.income-overview {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.add-btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #4f46e5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.add-btn:hover {
+    background-color: #4338ca;
+}

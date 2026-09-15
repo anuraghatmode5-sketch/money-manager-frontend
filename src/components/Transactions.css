@@ -1,0 +1,41 @@
+.transactions-card {
+    width: 100%;
+}
+
+.transactions-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transactions-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    background: none;
+    color: #7c3aed;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: #6d28d9;
+}
+
+.text-base {
+    font-size: 15px;
+}
+
+.transactions-list {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}

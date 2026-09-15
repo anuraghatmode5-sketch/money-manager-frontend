@@ -1,0 +1,41 @@
+.dashboard {
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+}
+
+.dashboard-content {
+    display: flex;
+    height: calc(100vh - 73px);
+    overflow: hidden;
+    background-color: white;
+}
+
+.sidebar-container {
+    display: block;
+    width: 250px;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.dashboard-main-content {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 0;
+    background-color: white;
+}
+
+@media (max-width: 1080px) {
+    .sidebar-container {
+        display: none;
+    }
+
+    .dashboard-main-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

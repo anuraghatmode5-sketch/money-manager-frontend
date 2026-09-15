@@ -1,0 +1,10 @@
+.expense-list-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .expense-list-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

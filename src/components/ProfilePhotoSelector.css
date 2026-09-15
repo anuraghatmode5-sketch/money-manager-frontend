@@ -1,0 +1,75 @@
+.profile-photo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.profile-photo-input {
+    display: none;
+}
+
+.profile-photo-placeholder {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3e8ff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile-user-icon {
+    color: #a855f7;
+}
+
+.profile-upload-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    cursor: pointer;
+}
+
+.profile-upload-button:hover {
+    background-color: #4338ca;
+}
+
+.profile-photo-preview {
+    position: relative;
+}
+
+.profile-photo-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-remove-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    cursor: pointer;
+}
+
+.profile-remove-button:hover {
+    background-color: #b91c1c;
+}

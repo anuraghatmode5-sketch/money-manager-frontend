@@ -1,0 +1,31 @@
+.expense-actions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.expense-actions .add-btn {
+    width: auto;
+}
+
+.expense-actions .add-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.loading-icon {
+    width: 16px;
+    height: 16px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

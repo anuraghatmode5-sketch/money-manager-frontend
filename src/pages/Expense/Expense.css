@@ -1,0 +1,9 @@
+.expense-container {
+    margin: 24px auto;
+}
+
+.expense-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}

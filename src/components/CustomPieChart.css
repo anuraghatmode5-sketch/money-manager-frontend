@@ -1,0 +1,20 @@
+.custom-pie-chart {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pie-label {
+    font-size: 12px;
+    fill: #6b7280;
+}
+
+.pie-total {
+    font-size: 20px;
+    font-weight: 600;
+    fill: #374151;
+}
+
+.custom-pie-chart .recharts-legend-item-text {
+    color: #374151;
+    font-size: 12px;
+}
